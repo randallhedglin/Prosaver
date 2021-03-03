@@ -1,0 +1,28 @@
+[Audio]
+file0=C:\Documents and Settings\Randy\My Documents\Randy's Folder\ProSaver\Versions\Current\Full\Audio\Adventure.mid
+file1=C:\Documents and Settings\Randy\My Documents\Randy's Folder\ProSaver\Versions\Current\Full\Audio\Alien World.mid
+file2=C:\Documents and Settings\Randy\My Documents\Randy's Folder\ProSaver\Versions\Current\Full\Audio\Canon in D.mid
+file3=C:\Documents and Settings\Randy\My Documents\Randy's Folder\ProSaver\Versions\Current\Full\Audio\Caveman Drums.mid
+file4=C:\Documents and Settings\Randy\My Documents\Randy's Folder\ProSaver\Versions\Current\Full\Audio\Creepy.mid
+file5=C:\Documents and Settings\Randy\My Documents\Randy's Folder\ProSaver\Versions\Current\Full\Audio\Epic Battle.mid
+file6=C:\Documents and Settings\Randy\My Documents\Randy's Folder\ProSaver\Versions\Current\Full\Audio\Fur Elise.mid
+file7=C:\Documents and Settings\Randy\My Documents\Randy's Folder\ProSaver\Versions\Current\Full\Audio\Lost and Alone.mid
+file8=C:\Documents and Settings\Randy\My Documents\Randy's Folder\ProSaver\Versions\Current\Full\Audio\Mysterious.mid
+file9=C:\Documents and Settings\Randy\My Documents\Randy's Folder\ProSaver\Versions\Current\Full\Audio\Space Battle.mid
+file10=C:\Documents and Settings\Randy\My Documents\Randy's Folder\ProSaver\Versions\Current\Full\Audio\Spooky.mid
+fulldirectory=
+
+[TopDir]
+file0=C:\Documents and Settings\Randy\My Documents\Randy's Folder\ProSaver\Versions\Current\Full\file_id.diz
+file1=C:\Documents and Settings\Randy\My Documents\Randy's Folder\ProSaver\Versions\Current\Full\license.txt
+file2=C:\Documents and Settings\Randy\My Documents\Randy's Folder\ProSaver\Versions\Current\Full\pad_file.xml
+file3=C:\Documents and Settings\Randy\My Documents\Randy's Folder\ProSaver\Versions\Current\Full\prosaver.chm
+file4=C:\Documents and Settings\Randy\My Documents\Randy's Folder\ProSaver\Versions\Current\Full\ProSaver.exe
+file5=C:\Documents and Settings\Randy\My Documents\Randy's Folder\ProSaver\Versions\Current\Full\readme.txt
+file6=C:\Documents and Settings\Randy\My Documents\Randy's Folder\ProSaver\Versions\Current\Full\SvrHook.dll
+SubDir0=Audio
+
+[General]
+Type=FILELIST
+Version=1.00.000
+

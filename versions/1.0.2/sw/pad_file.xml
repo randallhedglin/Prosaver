@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML_DIZ_INFO>
+	<MASTER_PAD_VERSION_INFO>
+		<MASTER_PAD_VERSION>2.01</MASTER_PAD_VERSION>
+		<MASTER_PAD_EDITOR>PADGen 2.0.1.22 http://www.padgen.org</MASTER_PAD_EDITOR>
+		<MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://www.asp-shareware.org/pad</MASTER_PAD_INFO>
+	</MASTER_PAD_VERSION_INFO>
+	<Company_Info>
+		<Company_Name>WaveBreak Software</Company_Name>
+		<Address_1>P.O. Box 112</Address_1>
+		<Address_2 />
+		<City_Town>Saxonburg</City_Town>
+		<State_Province>PA</State_Province>
+		<Zip_Postal_Code>16056</Zip_Postal_Code>
+		<Country>USA</Country>
+		<Company_WebSite_URL>http://www.wavebreaksoftware.com</Company_WebSite_URL>
+		<Contact_Info>
+			<Author_First_Name>WaveBreak</Author_First_Name>
+			<Author_Last_Name>Software</Author_Last_Name>
+			<Author_Email>webmaster@wavebreaksoftware.com</Author_Email>
+			<Contact_First_Name>WaveBreak</Contact_First_Name>
+			<Contact_Last_Name>Software</Contact_Last_Name>
+			<Contact_Email>webmaster@wavebreaksoftware.com</Contact_Email>
+		</Contact_Info>
+		<Support_Info>
+			<Sales_Email>sales@wavebreaksoftware.com</Sales_Email>
+			<Support_Email>support@wavebreaksoftware.com</Support_Email>
+			<General_Email>info@wavebreaksoftware.com</General_Email>
+			<Sales_Phone />
+			<Support_Phone />
+			<General_Phone />
+			<Fax_Phone />
+		</Support_Info>
+	</Company_Info>
+	<Program_Info>
+		<Program_Name>ProSaver Screensaver Manager</Program_Name>
+		<Program_Version>1.0.2</Program_Version>
+		<Program_Release_Month>04</Program_Release_Month>
+		<Program_Release_Day>06</Program_Release_Day>
+		<Program_Release_Year>2007</Program_Release_Year>
+		<Program_Cost_Dollars>15.95</Program_Cost_Dollars>
+		<Program_Cost_Other_Code />
+		<Program_Cost_Other />
+		<Program_Type>Shareware</Program_Type>
+		<Program_Release_Status>Minor Update</Program_Release_Status>
+		<Program_Install_Support>Install and Uninstall</Program_Install_Support>
+		<Program_OS_Support>Win98,WinME,WinNT 3.x,WinNT 4.x,Windows2000,WinXP,Windows2003</Program_OS_Support>
+		<Program_Language>English</Program_Language>
+		<Program_Change_Info />
+		<Program_Specific_Category />
+		<Program_Category_Class>Desktop::Screen Savers: Other</Program_Category_Class>
+		<Program_Categories />
+		<Program_System_Requirements />
+		<Includes_JAVA_VM>N</Includes_JAVA_VM>
+		<Includes_VB_Runtime>N</Includes_VB_Runtime>
+		<Includes_DirectX>N</Includes_DirectX>
+		<File_Info>
+			<Filename_Versioned />
+			<Filename_Previous />
+			<Filename_Generic />
+			<Filename_Long />
+			<File_Size_Bytes>1800000</File_Size_Bytes>
+			<File_Size_K>1757</File_Size_K>
+			<File_Size_MB>1.72</File_Size_MB>
+		</File_Info>
+		<Expire_Info>
+			<Has_Expire_Info>Y</Has_Expire_Info>
+			<Expire_Count>30</Expire_Count>
+			<Expire_Based_On>Days</Expire_Based_On>
+			<Expire_Other_Info />
+			<Expire_Month />
+			<Expire_Day />
+			<Expire_Year />
+		</Expire_Info>
+	</Program_Info>
+	<Program_Descriptions>
+		<English>
+			<Keywords>screen saver, screensaver, manager, management, organize, multiple, more, than, one, background, music, audio</Keywords>
+			<Char_Desc_45>Full-featured screensaver management</Char_Desc_45>
+			<Char_Desc_80>Run all of your favorite screensavers, organize them, and even add music.</Char_Desc_80>
+			<Char_Desc_250>Do you have more than one favorite screensaver?  All of usl do!  This application lets you run all of your favorite screensavers, organize them by theme, give them ratings, and even add music!  Download the free trial today.</Char_Desc_250>
+			<Char_Desc_450>What's your favorite screensaver?  If you're like most people, you don't have just one.  This application lets you run all of your favorite screensavers by quickly and easily putting them into playlists, all without ever having to bother with the tedious Windows Control Panel!  Organize screensavers by theme, give them ratings, and even add music!  Download the free trial today.</Char_Desc_450>
+			<Char_Desc_2000>  What's your favorite screensaver?  Do you have a hard time picking just one?
+If so, you're not alone!  With the literally thousands of screensavers that can
+be downloaded right now, most of us have several screensavers that we enjoy
+watching.  Whether it's gently flowing waterfalls, morphing geometrics, or
+blasting enemy spaceships in the outer reaches of space, it can be hard to pick
+just one!  And any user of Windows knows that it can be a real hassle
+to change your screensaver on a frequent basis.
+
+  And that's exactly why you need ProSaver Screensaver Manager, from WaveBreak
+Software!  ProSaver is a full-featured screensaver management and enhancement
+application.  ProSaver will make your life easier and more fun in many ways:
+
+ • Run all of your favorite screensavers without ever having to bother with the
+   tedious Windows Control Panel.
+
+ • Quickly and easily create playlists from your available screensavers and set
+   them to play back just the way you like using our concise 'Options' sheet.
+
+ • Newly downloaded screensavers can be added to the current playlist with a
+   few clicks of the mouse, and "stale" screensavers deleted just as easily.
+
+ • Organize your screensavers by theme, and give them ratings (from 1 to 5
+   stars) so you can find the best ones quickly.
+
+ • Open the ProSaver playlist window or start your screensaver instantly with
+   the touch of a button.
+
+  And, as an added feature, have you ever thought that a certain screensaver
+would be just perfect ... if only it had a certain song playing in the back-
+ground?  With ProSaver Screensaver Manager, you can do exactly that!  Add your
+favorite music to almost any screensaver, and turn a *good* screensaver into a *great* one!
+
+  Sometimes you just need to kick back and relax, and screensavers are a great way to do exactly that!  You've earned a break, so download the free trial today!</Char_Desc_2000>
+		</English>
+	</Program_Descriptions>
+	<Web_Info>
+		<Application_URLs>
+			<Application_Info_URL>http://www.wavebreaksoftware.com/prosaver.htm</Application_Info_URL>
+			<Application_Order_URL>http://www.wavebreaksoftware.com/prosaver.htm</Application_Order_URL>
+			<Application_Screenshot_URL>http://www.wavebreaksoftware.com/resources/prosaver/scrnshot.jpg</Application_Screenshot_URL>
+			<Application_Icon_URL>http://www.wavebreaksoftware.com/resources/prosaver/appicon.gif</Application_Icon_URL>
+			<Application_XML_File_URL>http://www.wavebreaksoftware.com/resources/prosaver/pad_file.xml</Application_XML_File_URL>
+		</Application_URLs>
+		<Download_URLs>
+			<Primary_Download_URL>http://www.wavebreaksoftware.com/downloads/prosaver_sw.exe</Primary_Download_URL>
+			<Secondary_Download_URL>http://www.wavebreaksoftware.com/downloads/prosaver_sw.zip</Secondary_Download_URL>
+			<Additional_Download_URL_1 />
+			<Additional_Download_URL_2 />
+		</Download_URLs>
+	</Web_Info>
+	<Permissions>
+		<Distribution_Permissions />
+		<EULA>
+ProSaver Screensaver Manager
+
+END-USER LICENSE AGREEMENT
+--------------------------
+
+IMPORTANT--READ THESE TERMS CAREFULLY BEFORE INSTALLING THIS SOFTWARE.  BY INSTALLING AND USING THIS SOFTWARE, YOU ACKNOWLEDGE THAT YOU HAVE READ AND UNDERSTAND THIS LICENSE AGREEMENT AND THAT YOU AGREE TO BE BOUND BY ITS TERMS.  IF YOU DO NOT AGREE TO THE TERMS AND CONDITIONS OF THIS LICENSE AGREEMENT, YOU ARE REQUIRED TO EXIT THIS SETUP PROGRAM WITHOUT INSTALLING OR USING THE SOFTWARE.
+
+THE TRIAL VERSION OF THE SOFTWARE PROVIDED HEREUNDER WILL EXPIRE AND NOT OPERATE AFTER THIRTY (30) DAYS FROM INSTALLATION.  THE PURCHASE OF THE REGISTERED VERSION IS REQUIRED FOR USE OF THE SOFTWARE AFTER THE THIRTY (30)-DAY TRIAL PERIOD.
+
+A. GRANT OF LICENSE for users of Registered Version only
+
+WaveBreak Software grants users of the Registered Version of this Software a non-exclusive, non-transferable license to use the Software with which this License Agreement is distributed, including any Documentation accompanying the Software, on a single personal computer, and to make one (1) backup copy of the Software, provided that:
+  (i) the Software is installed on only one (1) personal computer at any given time;
+  (ii) the Software and all related files are not modified in any way;
+  (iii) all copyright notices are maintained on the Software; and
+  (iv) you agree to be bound by the terms of this License Agreement.
+
+B. GRANT OF LICENSE for users of Trial Version only
+
+WaveBreak Software grants users of the Trial Version of this Software the right to use, copy and distribute the Trial Version of the Software with which this License Agreement is distributed as freely as possible, provided that:
+  (i) only the Trial Version of the Software is distributed; Trial Version users who become Registered Version users may not copy or distribute the Registered Version of this Software in any way except as noted in Section A above, pertaining to Registered Users of this Software;
+  (ii) the Software is distributed only in its complete form, including all files listed in the "Installation" section of the README.TXT file that accompanies this Software;
+  (iii) the Software is distributed only in the original self-extracting EXE or compressed ZIP files in which it is originally distributed from WaveBreak Software or an authorized distributor;
+  (iv) the Software is distributed without remuneration of any form, unless the express written consent of WaveBreak Software is obtained prior to any such distribution;
+  (v) the Software and all related files are not modified in any way;
+  (vi) all copyright notices are maintained on the Software; and
+  (vii) you agree to be bound by the terms of this License Agreement.
+
+The remaining sections apply to users of both the Registered and Trial Versions of this Software, unless otherwise noted:
+
+C. OWNERSHIP
+
+You have no ownership rights in the Software.  Rather, you have a license to use the Software as long as this License Agreement remains in full force and effect.  Ownership of the Software, Documentation and all Intellectual Property rights therein shall remain at all times with WaveBreak Software.  Any other use of the Software by any person, business, corporation, government organization or any other entity is strictly forbidden and is a violation of this License Agreement.
+
+D. COPYRIGHT
+
+The Software and Documentation contain material that is protected by United States Copyright Law and Trade Secret Law, and by international treaty provisions.  All rights not granted to you herein are expressly reserved by WaveBreak Software.  You may not remove any proprietary notice of WaveBreak Software from any copy of the Software or Documentation. 
+
+E. RESTRICTIONS
+
+You may not publish, display, disclose, rent, lease, modify, loan, distribute, or create derivative works based on the Software or any part thereof.  You may not reverse engineer, decompile, translate, adapt, or disassemble the Software, nor shall you attempt to create the source code from the object code of the Software.
+
+F. CONFIDENTIALITY
+
+You acknowledge that the Software contains proprietary trade secrets of WaveBreak Software and you hereby agree to maintain the confidentiality of the Software using at least as great a degree of care as you use to maintain the confidentiality of your own most confidential information.  You agree to reasonably communicate the terms and conditions of this License Agreement to those persons employed by you who come into contact with the Software, and to use reasonable best efforts to ensure their compliance with such terms and conditions, including, without limitation, not knowingly permitting such persons to use any portion of the Software for the purpose of deriving the source code of the Software or defeating the registration requirement.
+
+G. LIMITATION OF LIABILITY
+
+THIS SOFTWARE IS SOLD AS IS AND WITHOUT WARRANTY OF ANY KIND, EXPRESSED, IMPLIED OR OTHERWISE, INCLUDING WITHOUT LIMITATION, ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+
+IN NO EVENT SHALL THE OWNER(S) AND/OR EMPLOYEES OF WAVEBREAK SOFTWARE BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+THE END USER ASSUMES THE ENTIRE RISK OF USING THIS SOFTWARE.  ANY LIABILITY OF THE SELLER WILL BE LIMITED EXCLUSIVELY TO PRODUCT REPLACEMENT OR REFUND OF THE PURCHASE PRICE.  ANY SUCH REPLACEMENT OR REFUND WILL BE AT THE SOLE DISCRETION OF WAVEBREAK SOFTWARE.
+
+H. TERMINATION
+
+This License Agreement is effective until it is terminated.  You may terminate this License Agreement at any time by destroying or otherwise removing from your computer all copies of the Software and Documentation in your possession or under your control.  WaveBreak Software may terminate this License Agreement for any reason, including, but not limited to, if WaveBreak Software finds that you have violated any of the terms of this License Agreement.  Upon notification of termination, you agree to destroy or otherwise remove from your computer all copies of the Software and Documentation and to certify in writing that all known copies, including backup copies, have been destroyed.  All provisions relating to confidentiality, proprietary rights, and non-disclosure shall survive the termination of this License Agreement.
+
+I. GENERAL
+
+This License Agreement shall be construed, interpreted and governed by the laws of the United States of America without regard to conflicts of law provisions thereof.  The exclusive forum for any disputes arising out of or relating to this License Agreement shall be an appropriate court sitting in Butler County, Pennsylvania, USA.  This License Agreement shall constitute the entire Agreement between the parties hereto.  Any waiver or modification of this License Agreement shall only be effective if it is in writing and signed by both parties hereto.  If any part of this License Agreement is found invalid or unenforceable by a court of competent jurisdiction, the remainder of this License Agreement shall be interpreted so as to reasonably effect the intention of the parties hereto.
+
+Copyright © 2006-2007 WaveBreak Software
+
+Updated January 20, 2007
+</EULA>
+	</Permissions>
+	<ASP>
+		<ASP_FORM>Y</ASP_FORM>
+		<ASP_Member>Y</ASP_Member>
+		<ASP_Member_Number>05720</ASP_Member_Number>
+	</ASP>
+</XML_DIZ_INFO>

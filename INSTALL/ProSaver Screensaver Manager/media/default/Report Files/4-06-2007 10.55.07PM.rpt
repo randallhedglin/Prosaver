@@ -1,0 +1,72 @@
+////////////////////////////////////////////////////////////////////////////////
+///////////////////InstallShield Media Library Report Summary///////////////////
+////////////////////////////////////////////////////////////////////////////////
+
+Media Name      : Default
+Report Filename : C:\Documents and Settings\Randy\My Documents\Randy's Folder\ProSaver\Install\ProSaver Screensaver Manager\Media\Default\Report Files\4-06-2007 10.55.07PM.rpt
+Date            : 04/06/2007
+Time            : 10:55PM
+
+Number of Components:                1 
+Number of File Groups:               1 
+Number of Files:                    19 
+Total Size of Files:         2,003,718 (bytes)
+
+==========
+COMPONENTS
+==========
+
+
+     Program Files
+
+
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////Report Details/////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+
+
+================================================================================
+                           COMPONENT: "Program Files"
+================================================================================
+
+SUMMARY:
+    Total Files:               19 (files for this component only)
+    Source Bytes:       2,003,718 (files for this component only)
+
+
+                     **** File Group: "Program Files" ****
+
+
+<Directory>: C:\Documents and Settings\Randy\My Documents\Randy's Folder\ProSaver\Versions\Current\Full
+
+    Filename                    Date        Time      Size         Version      
+    --------------------------  ----------  --------  -----------  -------------
+    file_id.diz                 04/06/2007  22:31:36          432               
+    license.txt                 01/20/2007  12:03:00        7,436               
+    order.txt                   01/20/2007  12:03:33        1,768               
+    pad_file.xml                04/06/2007  22:41:25       14,783               
+    prosaver.chm                01/16/2007  00:38:38      968,163               
+    ProSaver.exe                04/06/2007  22:53:52      754,264  1.0.2.0      
+    readme.txt                  04/06/2007  22:33:56       20,182               
+    SvrHook.dll                 09/23/2006  16:20:33       28,672               
+    --------------------------  ----------  --------  -----------  -------------
+    Count=8                                             1,795,700               
+
+
+<Directory>: C:\Documents and Settings\Randy\My Documents\Randy's Folder\ProSaver\Versions\Current\Full\Audio
+
+    Filename                    Date        Time      Size         Version      
+    --------------------------  ----------  --------  -----------  -------------
+    Adventure.mid               09/05/2006  10:38:56       17,746               
+    Alien World.mid             09/05/2006  10:40:12       16,795               
+    Canon in D.mid              09/05/2006  10:43:18        9,394               
+    Caveman Drums.mid           09/05/2006  10:43:42        7,805               
+    Creepy.mid                  09/05/2006  10:44:16        6,386               
+    Epic Battle.mid             09/05/2006  10:44:48       36,051               
+    Fur Elise.mid               09/05/2006  10:45:08        8,264               
+    Lost and Alone.mid          09/05/2006  10:45:50       17,095               
+    Mysterious.mid              09/05/2006  10:46:18       46,304               
+    Space Battle.mid            09/05/2006  10:46:38       30,785               
+    Spooky.mid                  09/05/2006  10:47:02       11,393               
+    --------------------------  ----------  --------  -----------  -------------
+    Count=11                                              208,018               

@@ -1,0 +1,52 @@
+[Language]
+LanguageSupport0=0009
+
+[OperatingSystem]
+OSSupport=0000000000011010
+
+[Data]
+CurrentMedia=Default
+set_mifserial=
+ProductName=ProSaver Screensaver Manager
+CurrentComponentDef=Default.cdf
+set_dlldebug=No
+AppExe=C:\Documents and Settings\Randy\My Documents\Randy's Folder\ProSaver\Versions\Current\SW\ProSaver.exe
+DevEnvironment=Microsoft Visual C++ 6
+set_mif=No
+set_testmode=No
+Instructions=Instructions.txt
+EmailAddresss=
+SummaryText=
+Department=
+Type=Database Application
+Author=
+HomeURL=
+InstallRoot=C:\Documents and Settings\Randy\My Documents\Randy's Folder\ProSaver\Install\ProSaver Screensaver Manager
+set_level=Level 3
+InstallationGUID=42799135-0d4b-475b-91da-a5e65af1dcf2
+Version=1.0.0
+set_miffile=Status.mif
+set_args=
+set_maxerr=50
+Notes=Notes.txt
+CurrentFileGroupDef=Default.fdf
+set_dllcmdline=
+set_warnaserr=No
+Copyright=
+set_preproc=
+Category=
+CurrentPlatform=
+set_compileb4build=No
+set_crc=Yes
+set_maxwarn=50
+Description=Description.txt
+CompanyName=WaveBreak Software
+CurrentLanguage=English
+
+[MediaInfo]
+mediadata0=Default/Media\Default
+
+[General]
+Type=INSTALLMAIN
+Version=1.10.000
+

@@ -1,0 +1,784 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAINDLG_SAVERS DIALOGEX 0, 0, 442, 282
+STYLE DS_3DLOOK | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Screensavers"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Available Screensavers",IDC_STATIC,7,7,221,143
+    CONTROL         "SaverList",IDC_SAVERLIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_SHAREIMAGELISTS | 
+                    WS_BORDER | WS_TABSTOP,15,20,205,99,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Clear Selection",IDC_CLEARSELBTN,16,127,90,15,
+                    WS_DISABLED
+    PUSHBUTTON      "Add to Playlist ->",IDC_ADDSAVERBTN,129,127,90,15,
+                    WS_DISABLED
+    GROUPBOX        "Current Playlist",IDC_STATIC,236,7,199,143
+    CONTROL         "CurrPList",IDC_CURRPLIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | 
+                    WS_BORDER | WS_TABSTOP,244,20,109,101,WS_EX_CLIENTEDGE
+    COMBOBOX        IDC_PLISTSORTCBX,244,128,109,72,CBS_DROPDOWNLIST | 
+                    CBS_NOINTEGRALHEIGHT | WS_DISABLED | WS_VSCROLL | 
+                    WS_TABSTOP
+    GROUPBOX        "Move Selection",IDC_STATIC,361,17,66,68,BS_CENTER
+    PUSHBUTTON      "Up",IDC_PLISTUPBTN,369,29,22,14,BS_BITMAP
+    PUSHBUTTON      "Top",IDC_PLISTTOPBTN,396,29,22,14,BS_BITMAP
+    PUSHBUTTON      "Down",IDC_PLISTDOWNBTN,369,46,22,14,BS_BITMAP
+    PUSHBUTTON      "Bottom",IDC_PLISTBOTTOMBTN,396,46,22,14,BS_BITMAP
+    PUSHBUTTON      "Delete",IDC_PLISTDELBTN,369,65,49,14,WS_DISABLED
+    PUSHBUTTON      "Clear List",IDC_PLISTCLRBTN,364,91,60,14,WS_DISABLED
+    PUSHBUTTON      "Save to File...",IDC_PLISTSAVEBTN,364,109,60,14,
+                    WS_DISABLED
+    PUSHBUTTON      "Load from File...",IDC_PLISTLOADBTN,364,127,60,14
+    GROUPBOX        "Current Selection",IDC_STATIC,7,156,428,119
+    CONTROL         "SaverInfo",IDC_SAVERINFO,"RICHEDIT",ES_MULTILINE | 
+                    ES_READONLY | ES_WANTRETURN | ES_NUMBER | WS_VSCROLL,16,
+                    171,213,95,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Settings",IDC_SETTINGSBTN,243,173,50,15,WS_DISABLED
+    PUSHBUTTON      "Preview",IDC_PREVIEWBTN,243,195,50,15,WS_DISABLED
+    PUSHBUTTON      "Edit Info...",IDC_EDITINFOBTN,243,217,50,15,WS_DISABLED
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,244,241,50,1
+    CONTROL         "Preview ->",IDC_SHOWPREVIEWCHK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,245,250,50,10
+    CONTROL         "",IDC_PREVIEWWND,"Static",SS_GRAYFRAME,307,170,120,96
+END
+
+IDD_MAINDLG_PLAYBACK DIALOGEX 0, 0, 442, 282
+STYLE DS_3DLOOK | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Playback Options"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "General",IDC_STATIC,7,7,210,268
+    GROUPBOX        "Screensavers",IDC_STATIC,15,19,194,55
+    CONTROL         "Show one screensaver per playback session",
+                    IDC_ONESVRRAD,"Button",BS_AUTORADIOBUTTON | WS_GROUP | 
+                    WS_TABSTOP,23,32,157,10
+    CONTROL         "Switch screensavers during playback (slideshow)",
+                    IDC_MULTISVRRAD,"Button",BS_AUTORADIOBUTTON | WS_GROUP | 
+                    WS_TABSTOP,23,44,170,10
+    LTEXT           "Show each screensaver for",IDC_SHOWSVRTXT,34,58,88,8,
+                    WS_DISABLED | NOT WS_GROUP
+    EDITTEXT        IDC_SHOWSVREDT,124,56,32,12,ES_CENTER | ES_NUMBER | 
+                    WS_DISABLED
+    LTEXT           "minute(s)",IDC_SHOWSVRMINTXT,159,58,29,8,WS_DISABLED | 
+                    NOT WS_GROUP
+    GROUPBOX        "Playback Order",IDC_STATIC,15,81,194,42
+    CONTROL         "Display playlist screensavers in order (cycle)",
+                    IDC_SVRCYCLERAD,"Button",BS_AUTORADIOBUTTON | WS_GROUP | 
+                    WS_TABSTOP,23,94,153,10
+    CONTROL         "Select random screensavers from playlist (shuffle)",
+                    IDC_SVRSHUFFLERAD,"Button",BS_AUTORADIOBUTTON | WS_GROUP | 
+                    WS_TABSTOP,23,107,170,10
+    GROUPBOX        "Hotkeys",IDC_STATIC,15,131,194,74
+    CONTROL         "Enable hotkeys for the following operations:",
+                    IDC_ENABLEHKEYSCBX,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    23,144,153,10
+    LTEXT           "Start screensaver:",IDC_STARTSVRTXT,34,158,58,8,
+                    WS_DISABLED | NOT WS_GROUP
+    CONTROL         "StartSvrHky",IDC_STARTSVRHKY,"msctls_hotkey32",
+                    WS_DISABLED | WS_BORDER | WS_TABSTOP,120,156,80,12
+    LTEXT           "Skip to next screensaver:",IDC_SKIPSVRTXT,34,173,81,8,
+                    WS_DISABLED | NOT WS_GROUP
+    CONTROL         "SKipSvrHky",IDC_SKIPSVRHKY,"msctls_hotkey32",
+                    WS_DISABLED | WS_BORDER | WS_TABSTOP,120,171,80,12
+    LTEXT           "Open ProSaver options:",IDC_OPENPSTXT,34,188,76,8,
+                    WS_DISABLED | NOT WS_GROUP
+    CONTROL         "OpenPSHky",IDC_OPENPSHKY,"msctls_hotkey32",WS_DISABLED | 
+                    WS_BORDER | WS_TABSTOP,120,186,80,12
+    CONTROL         "Clear screen before running screensavers",
+                    IDC_CLRSCREENCBX,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    17,212,147,10
+    CONTROL         "Turn off ProSaver music playback in all screensavers",
+                    IDC_NOMUSICCBX,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,
+                    226,183,10
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,16,243,193,1
+    PUSHBUTTON      "Open Themes Manager",IDC_OPENTHEMESBTN,15,252,93,15
+    PUSHBUTTON      "Open Music Manager",IDC_OPENAUDIOBTN,115,252,93,15
+    GROUPBOX        "Advanced",IDC_STATIC,225,7,210,268
+    EDITTEXT        IDC_ADVWARNTXT,241,24,178,44,ES_CENTER | ES_MULTILINE | 
+                    ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    PUSHBUTTON      "Show Advanced Options >>",IDC_SHOWADVBTN,282,74,96,15
+    GROUPBOX        "Screensaver Search Paths",IDC_SPATHSTATIC,233,19,194,
+                    130
+    CONTROL         "SearchList",IDC_SEARCHLIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOCOLUMNHEADER | 
+                    WS_BORDER | WS_TABSTOP,241,33,178,86,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Add...",IDC_ADDPATHBTN,241,127,50,14
+    PUSHBUTTON      "Change...",IDC_CHANGEPATHBTN,305,127,50,14,WS_DISABLED
+    PUSHBUTTON      "Remove",IDC_DELETEPATHBTN,369,127,50,14,WS_DISABLED
+    CONTROL         "Show ProSaver icon in the system tray",IDC_SYSTRAYCHK,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,235,157,137,10
+    CONTROL         "Warn if ProSaver is not the current screensaver",
+                    IDC_KEEPCURCHK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,235,
+                    170,165,10
+    CONTROL         "Hide advanced options by default",IDC_HIDEADVCHK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,235,183,122,10
+    GROUPBOX        "Error Log",IDC_ERRLOGSTATIC,233,200,194,44
+    CONTROL         "Maintain error log during screensaver playback",
+                    IDC_ERRORLOGCHK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    241,213,163,10
+    LTEXT           "Max. lines:",IDC_MAXLINESTXT,252,227,34,8,WS_DISABLED | 
+                    NOT WS_GROUP
+    EDITTEXT        IDC_MAXLINESEDT,288,225,36,12,ES_CENTER | ES_NUMBER | 
+                    WS_DISABLED
+    PUSHBUTTON      "View Error Log",IDC_ERRORLOGBTN,360,225,60,13,
+                    WS_DISABLED
+    PUSHBUTTON      "Restore Blocked Messages",IDC_RESETMSGBTN,233,252,93,15
+    PUSHBUTTON      "<< Hide Advanced Options",IDC_HIDEADVBTN,333,252,93,15
+END
+
+IDD_SAVERINFO DIALOGEX 0, 0, 180, 242
+STYLE DS_MODALFRAME | DS_SETFOREGROUND | DS_3DLOOK | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Edit Screensaver Info"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_SAVERINFOICON,"Static",SS_BLACKFRAME | 
+                    SS_CENTERIMAGE,7,7,30,27
+    CTEXT           "SaverName",IDC_SAVERNAME,41,15,132,11,NOT WS_GROUP
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,44,34,132,1
+    LTEXT           "Theme:",IDC_STATIC,7,45,25,8,NOT WS_GROUP
+    COMBOBOX        IDC_THEMESELBOX,37,43,78,64,CBS_DROPDOWNLIST | CBS_SORT | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Edit Themes",IDC_EDITTHEMESBTN,123,43,50,13
+    LTEXT           "Rating:",IDC_STATIC,7,65,24,8,NOT WS_GROUP
+    COMBOBOX        IDC_RATINGSELBOX,37,63,78,64,CBS_DROPDOWNLIST | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Help",IDC_EDITHELPBTN,123,63,50,13
+    LTEXT           "Music:",IDC_STATIC,7,85,22,8,NOT WS_GROUP
+    EDITTEXT        IDC_MUSICSELBOX,37,83,78,13,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_TABSTOP
+    PUSHBUTTON      "Change...",IDC_MUSICBROWSEBTN,123,83,50,13
+    CONTROL         "Cycle",IDC_MUSICCYCLERAD,"Button",BS_AUTORADIOBUTTON | 
+                    BS_NOTIFY | WS_DISABLED | WS_GROUP | WS_TABSTOP,40,102,
+                    33,10
+    CONTROL         "Shuffle",IDC_MUSICSHUFFLERAD,"Button",
+                    BS_AUTORADIOBUTTON | BS_NOTIFY | WS_DISABLED | WS_GROUP | 
+                    WS_TABSTOP,77,102,38,10
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,7,119,166,1
+    LTEXT           "Description:",IDC_SAVERDESC,7,126,166,8,NOT WS_GROUP
+    EDITTEXT        IDC_SAVERDESCEDT,7,142,165,52,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_WANTRETURN | NOT WS_BORDER | 
+                    WS_VSCROLL,WS_EX_CLIENTEDGE
+    CONTROL         "Turn off mini-preview (for this screensaver only)",
+                    IDC_DISABLEPREVCHK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    8,203,165,10
+    DEFPUSHBUTTON   "OK",IDOK,7,221,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,65,221,50,14
+    PUSHBUTTON      "Apply",IDC_APPLY,123,221,50,14
+END
+
+IDD_EDITTHEMES DIALOGEX 0, 0, 166, 159
+STYLE DS_MODALFRAME | DS_SETFOREGROUND | DS_3DLOOK | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Themes Manager"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "Current Themes:",IDC_STATIC,7,7,53,8,NOT WS_GROUP
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,64,11,95,1
+    LISTBOX         IDC_THEMESLIST,7,21,86,99,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | LBS_WANTKEYBOARDINPUT | 
+                    LBS_EXTENDEDSEL | LBS_DISABLENOSCROLL | WS_VSCROLL | 
+                    WS_TABSTOP,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "New...",IDC_NEWTHEMEBTN,103,20,56,14
+    PUSHBUTTON      "Delete",IDC_DELTHEMEBTN,103,39,56,14,WS_DISABLED
+    PUSHBUTTON      "Rename",IDC_RENAMETHEMEBTN,103,58,56,14,WS_DISABLED
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,104,79,55,1
+    PUSHBUTTON      "Reset Defaults",IDC_DEFTHEMESBTN,103,87,56,14
+    PUSHBUTTON      "Help",IDC_THEMESHELPBTN,103,106,56,14
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,8,129,151,1
+    DEFPUSHBUTTON   "OK",IDOK,7,138,46,14
+    PUSHBUTTON      "Cancel",IDCANCEL,60,138,46,14
+    PUSHBUTTON      "Apply",IDC_APPLY,113,138,46,14,WS_DISABLED
+END
+
+IDD_NEWTHEME DIALOG DISCARDABLE  0, 0, 119, 63
+STYLE DS_MODALFRAME | DS_SETFOREGROUND | DS_3DLOOK | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Add New Theme"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    CTEXT           "Enter a new theme to add:",IDC_STATIC,7,7,105,8,NOT 
+                    WS_GROUP
+    EDITTEXT        IDC_NEWTHEMEEDT,11,21,97,13,ES_AUTOHSCROLL | 
+                    ES_NOHIDESEL
+    DEFPUSHBUTTON   "OK",IDOK,7,42,49,14
+    PUSHBUTTON      "Cancel",IDCANCEL,63,42,49,14
+END
+
+IDD_CHANGEMUSIC DIALOG DISCARDABLE  0, 0, 117, 146
+STYLE DS_MODALFRAME | DS_SETFOREGROUND | DS_3DLOOK | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Change Music"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    CTEXT           "Please select an option:",IDC_STATIC,7,7,103,8,NOT 
+                    WS_GROUP
+    PUSHBUTTON      "Load Single Audio File",IDC_LOADAUDFILEBTN,7,21,103,14
+    PUSHBUTTON      "Load ProSaver Audio Playlist",IDC_LOADPLISTBTN,7,42,103,
+                    14
+    PUSHBUTTON      "Set Audio to None",IDC_CLEARMUSBTN,7,63,103,14
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,8,85,102,1
+    PUSHBUTTON      "Open Music Manager",IDC_EDITAUDIOBTN,7,94,103,14
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,8,116,102,1
+    PUSHBUTTON      "Help",IDC_CHGMUSHELPBTN,7,125,48,14
+    DEFPUSHBUTTON   "Cancel",IDCANCEL,62,125,48,14
+END
+
+IDD_RENAMETHEME DIALOG DISCARDABLE  0, 0, 119, 63
+STYLE DS_MODALFRAME | DS_SETFOREGROUND | DS_3DLOOK | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Rename Theme"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    CTEXT           "Enter a new name for this theme:",IDC_STATIC,7,7,105,8,
+                    NOT WS_GROUP
+    EDITTEXT        IDC_RENAMETHEMEEDT,11,21,97,13,ES_AUTOHSCROLL | 
+                    ES_NOHIDESEL
+    DEFPUSHBUTTON   "OK",IDOK,7,42,49,14
+    PUSHBUTTON      "Cancel",IDCANCEL,63,42,49,14
+END
+
+IDD_MUSICMGR DIALOGEX 0, 0, 429, 279
+STYLE DS_MODALFRAME | DS_SETFOREGROUND | DS_3DLOOK | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Music Manager"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Audio Files",IDC_STATIC,7,7,207,154
+    LTEXT           "Look in:",IDC_STATIC,15,22,26,8,NOT WS_GROUP
+    COMBOBOX        IDC_HISTORYCBX,45,19,120,144,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Back",IDC_FILEBACKBTN,170,19,16,14,BS_BITMAP | 
+                    WS_DISABLED
+    PUSHBUTTON      "Up",IDC_FILEUPBTN,190,19,16,14,BS_BITMAP | WS_DISABLED
+    CONTROL         "FileList",IDC_FILELIST,"SysListView32",LVS_LIST | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_SHAREIMAGELISTS | 
+                    LVS_NOCOLUMNHEADER | WS_BORDER | WS_TABSTOP,15,39,191,76
+    LTEXT           "Files of type:",IDC_STATIC,15,124,40,8,NOT WS_GROUP
+    COMBOBOX        IDC_FILETYPECBX,60,122,146,64,CBS_DROPDOWNLIST | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Clear Selection",IDC_CLEARAUDIOSELBTN,15,140,90,14,
+                    WS_DISABLED
+    PUSHBUTTON      "Add to Playlist ->",IDC_ADDAUDIOFILEBTN,116,140,90,14,
+                    WS_DISABLED
+    GROUPBOX        "Current Playlist",IDC_STATIC,223,7,199,143
+    CONTROL         "AudioPList",IDC_AUDIOPLIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_SHAREIMAGELISTS | 
+                    LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,231,20,109,101,
+                    WS_EX_CLIENTEDGE
+    COMBOBOX        IDC_AUDIOPLISTSORTCBX,231,128,109,72,CBS_DROPDOWNLIST | 
+                    CBS_NOINTEGRALHEIGHT | WS_DISABLED | WS_VSCROLL | 
+                    WS_TABSTOP
+    GROUPBOX        "Move Selection",IDC_STATIC,348,17,66,68,BS_CENTER
+    PUSHBUTTON      "Up",IDC_AUDIOPLISTUPBTN,356,29,22,14,BS_BITMAP | 
+                    WS_DISABLED
+    PUSHBUTTON      "Top",IDC_AUDIOPLISTTOPBTN,383,29,22,14,BS_BITMAP | 
+                    WS_DISABLED
+    PUSHBUTTON      "Down",IDC_AUDIOPLISTDOWNBTN,356,46,22,14,BS_BITMAP | 
+                    WS_DISABLED
+    PUSHBUTTON      "Bottom",IDC_AUDIOPLISTBOTTOMBTN,383,46,22,14,BS_BITMAP | 
+                    WS_DISABLED
+    PUSHBUTTON      "Delete",IDC_AUDIOPLISTDELBTN,356,65,49,14,WS_DISABLED
+    PUSHBUTTON      "Clear List",IDC_AUDIOPLISTCLRBTN,351,91,60,14,
+                    WS_DISABLED
+    PUSHBUTTON      "Save to File...",IDC_AUDIOPLISTSAVEBTN,351,109,60,14,
+                    WS_DISABLED
+    PUSHBUTTON      "Load from File...",IDC_AUDIOPLISTLOADBTN,351,127,60,14
+    GROUPBOX        "Current Selection",IDC_STATIC,7,168,207,82
+    CONTROL         "AudioInfo",IDC_AUDIOINFO,"RICHEDIT",ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_READONLY | ES_WANTRETURN | ES_NUMBER | 
+                    WS_DISABLED | WS_VSCROLL | WS_HSCROLL,15,180,112,63,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Play",IDC_PLAYBTN,136,180,20,16,BS_BITMAP | WS_DISABLED
+    PUSHBUTTON      "Pause",IDC_PAUSEBTN,161,180,20,16,BS_BITMAP | 
+                    WS_DISABLED
+    PUSHBUTTON      "Stop",IDC_STOPBTN,186,180,20,16,BS_BITMAP | WS_DISABLED
+    PUSHBUTTON      "Rewind to Start",IDC_FULLREWBTN,136,200,20,16,BS_BITMAP | 
+                    WS_DISABLED
+    PUSHBUTTON      "Rewind",IDC_REWBTN,161,200,20,16,BS_BITMAP | 
+                    WS_DISABLED
+    PUSHBUTTON      "Forward",IDC_FWDBTN,186,200,20,16,BS_BITMAP | 
+                    WS_DISABLED
+    CTEXT           "0:00/0:00",IDC_AUDIOPOSTXT,136,222,70,8,WS_DISABLED | 
+                    NOT WS_GROUP
+    CONTROL         "AudioPosSlider",IDC_AUDIOPOSSLD,"msctls_trackbar32",
+                    WS_DISABLED | WS_TABSTOP,136,230,70,13
+    GROUPBOX        "Playback Controls",IDC_STATIC,223,157,95,93
+    CONTROL         "Enable controls:",IDC_ENABLEPBCCHK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,231,170,67,10
+    LTEXT           "Next",IDC_NEXTHKYTXT,242,185,16,8,WS_DISABLED | NOT 
+                    WS_GROUP
+    CONTROL         "NextHky",IDC_NEXTHKY,"msctls_hotkey32",WS_DISABLED | 
+                    WS_BORDER | WS_TABSTOP,262,183,48,12
+    LTEXT           "Vol +",IDC_VOLUPHKYTXT,242,201,17,8,WS_DISABLED | NOT 
+                    WS_GROUP
+    CONTROL         "VolUpHky",IDC_VOLUPHKY,"msctls_hotkey32",WS_DISABLED | 
+                    WS_BORDER | WS_TABSTOP,262,199,48,12
+    LTEXT           "Vol -",IDC_VOLDNHKYTXT,242,217,15,8,WS_DISABLED | NOT 
+                    WS_GROUP
+    CONTROL         "VolDnHky",IDC_VOLDNHKY,"msctls_hotkey32",WS_DISABLED | 
+                    WS_BORDER | WS_TABSTOP,262,215,48,12
+    LTEXT           "Mute",IDC_MUTEHKYTXT,242,233,17,8,WS_DISABLED | NOT 
+                    WS_GROUP
+    CONTROL         "MuteHky",IDC_MUTEHKY,"msctls_hotkey32",WS_DISABLED | 
+                    WS_BORDER | WS_TABSTOP,262,231,48,12
+    GROUPBOX        "Synthesizer Options",IDC_STATIC,327,157,95,93
+    CONTROL         "Windows default",IDC_WINSYNTHRAD,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,336,170,69,10
+    CONTROL         "DirectX Audio",IDC_DXSYNTHRAD,"Button",
+                    BS_AUTORADIOBUTTON | WS_DISABLED | WS_GROUP,336,184,59,
+                    10
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,336,200,80,1
+    LTEXT           "DirectX Audio effects:",IDC_DXFXTXT,336,206,70,8,
+                    WS_DISABLED | NOT WS_GROUP
+    CONTROL         "Reverb",IDC_REVERBCHK,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,347,220,39,10
+    CONTROL         "Chorus",IDC_CHORUSCHK,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,347,234,38,10
+    PUSHBUTTON      "Help",IDC_MUSMANHELPBTN,7,258,50,14
+    PUSHBUTTON      "Download DirectX 8.1",IDC_INSTALLDXBTN,115,258,82,14
+    DEFPUSHBUTTON   "OK",IDOK,256,258,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,314,258,50,14
+    PUSHBUTTON      "Apply",IDC_APPLY,372,258,50,14,WS_DISABLED
+END
+
+IDD_PREFS DIALOG DISCARDABLE  0, 0, 152, 151
+STYLE DS_MODALFRAME | DS_SETFOREGROUND | DS_3DLOOK | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Preferences"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    GROUPBOX        "General",IDC_STATIC,7,7,137,116
+    CONTROL         "Enable sound effects",IDC_PLAYSFXCHK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,17,20,83,10
+    CONTROL         "Show tooltips on buttons",IDC_SHOWTOOLTIPSCHK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,17,33,93,10
+    CONTROL         "Show splash screen at startup",IDC_SPLASHSCRNCHK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,17,46,111,10
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,17,61,120,1
+    CONTROL         "Show details in screensaver list",IDC_SAVERLISTDETCHK,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,67,114,10
+    CONTROL         "Show ratings as images",IDC_RATINGIMGSCHK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,29,80,90,10
+    CONTROL         "Show popup screensaver info",IDC_SLISTPOPUPCHK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,29,93,110,10
+    CONTROL         "Show popup playlist info",IDC_PLISTPOPUPCHK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,17,106,92,10
+    PUSHBUTTON      "Help",IDC_PREFSHELPBTN,7,130,42,14
+    DEFPUSHBUTTON   "OK",IDOK,55,130,42,14
+    PUSHBUTTON      "Cancel",IDCANCEL,103,130,42,14
+END
+
+IDD_ABOUT DIALOG DISCARDABLE  0, 0, 198, 218
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About This Software"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    CONTROL         "",IDC_ABOUTBMP,"Static",SS_BITMAP,17,7,24,22
+    CTEXT           "ProSaver Screensaver Manager",IDC_PSMGRTXT,50,8,131,9,
+                    NOT WS_GROUP
+    CTEXT           "Version 1.0.3 (Release date: 19-Jan-2011)",IDC_STATIC,
+                    50,20,134,8,NOT WS_GROUP
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,17,34,166,1
+    CTEXT           "Please direct any comments or suggestions to:",
+                    IDC_STATIC,7,39,184,8,NOT WS_GROUP
+    CTEXT           "Standard mail: WaveBreak Software",IDC_STATIC,7,49,178,
+                    8,NOT WS_GROUP
+    LTEXT           "P.O. Box 2181",IDC_STATIC,85,58,47,8
+    LTEXT           "Goose Creek, SC  29445",IDC_STATIC,85,67,80,8
+    CTEXT           "e-mail: wbsoftware@ymail.com, or",IDC_STATIC,7,77,184,8
+    CTEXT           "visit us online at www.wb-software.com.",IDC_STATIC,7,
+                    86,184,8
+    CONTROL         "",IDC_WBSOFTBMP,"Static",SS_BITMAP,37,99,123,32
+    CTEXT           "This program and all associated documentation, data, and",
+                    IDC_STATIC,7,136,184,8
+    CTEXT           "other files are copright 2006-2011 WaveBreak Software.",
+                    IDC_STATIC,7,145,184,8
+    CTEXT           "See the software license agreement for more information.",
+                    IDC_STATIC,7,154,184,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,7,168,183,1
+    CTEXT           "Some images used in this software are copyright ©",
+                    IDC_STATIC,7,173,184,8
+    CTEXT           "Riverdeep Interactive Learning Ltd. and its licensors.",
+                    IDC_STATIC,7,182,184,8
+    PUSHBUTTON      "View License",IDC_VIEWLICBTN,7,197,56,14
+    PUSHBUTTON      "View ReadMe",IDC_VIEWREADMEBTN,71,197,56,14
+    DEFPUSHBUTTON   "OK",IDOK,135,197,56,14
+END
+
+IDD_PURCHASE DIALOGEX 0, 0, 208, 272
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ProSaver (How to Order)"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CTEXT           "",IDC_TRIALDAYSTXT,7,7,194,14,SS_CENTERIMAGE | 
+                    WS_BORDER | NOT WS_GROUP,WS_EX_CLIENTEDGE
+    CTEXT           "If you have enjoyed the trial version of this softare, order the",
+                    IDC_STATIC,7,25,194,8,NOT WS_GROUP
+    CTEXT           "full version today for only $15.95(US)! Remember, all of the",
+                    IDC_STATIC,7,34,194,8,NOT WS_GROUP
+    CTEXT           "high-quality programs from WaveBreak Software contain NO",
+                    IDC_STATIC,7,43,194,8,NOT WS_GROUP
+    CTEXT           "ADWARE, NO SPYWARE, or other HIDDEN SOFTWARE!",
+                    IDC_STATIC,7,52,194,8,NOT WS_GROUP
+    CONTROL         "",IDC_CCARDS1BMP,"Static",SS_BITMAP,8,66,36,48
+    CONTROL         "",IDC_PSBUYBMP,"Static",SS_BITMAP,50,66,108,48
+    CONTROL         "",IDC_CCARDS2BMP,"Static",SS_BITMAP,164,66,36,48
+    CTEXT           "Secure payment processing provided by Emetrix",
+                    IDC_STATIC,7,119,194,8,NOT WS_GROUP
+    PUSHBUTTON      "Click here for our SECURE online order form!",
+                    IDC_ORDERBTN,23,133,162,15
+    CTEXT           "We value your business and your privacy. All personal",
+                    IDC_STATIC,7,152,194,8,NOT WS_GROUP
+    CTEXT           "information that you submit will be kept strictly confidential.",
+                    IDC_STATIC,7,161,194,8,NOT WS_GROUP
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,8,174,192,1
+    CTEXT           "Not comfortable with online payments?",IDC_STATIC,6,180,
+                    132,8,NOT WS_GROUP
+    CTEXT           "Print the form to the right to order by mail!",
+                    IDC_STATIC,6,189,132,8,NOT WS_GROUP
+    PUSHBUTTON      "Mail-Order Form",IDC_MAILFORMBTN,141,182,58,13
+    CTEXT           "You can also order by phone at (888) 447-1175 (inside US)",
+                    IDC_STATIC,7,203,194,8,NOT WS_GROUP
+    CTEXT           "or at (952) 646-5558 (outside US). NOTE: These phone",
+                    IDC_STATIC,7,212,194,8,NOT WS_GROUP
+    CTEXT           "numbers are for order processing only. For technical",
+                    IDC_STATIC,7,221,194,8,NOT WS_GROUP
+    CTEXT           "support, see our contact info in the 'About' dialog box.",
+                    IDC_STATIC,7,230,194,8,NOT WS_GROUP
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,8,243,192,1
+    DEFPUSHBUTTON   "OK",IDOK,79,251,50,14
+END
+
+IDD_DXINIT DIALOG DISCARDABLE  0, 0, 130, 55
+STYLE DS_SETFOREGROUND | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CLIPCHILDREN | WS_BORDER
+FONT 8, "MS Shell Dlg"
+BEGIN
+    CTEXT           "Initializing DirectX Audio...",IDC_STATIC,7,7,116,41,
+                    SS_CENTERIMAGE | SS_SUNKEN | NOT WS_GROUP
+END
+
+IDD_WELCOMEDLG DIALOG DISCARDABLE  0, 0, 250, 194
+STYLE DS_MODALFRAME | DS_SETFOREGROUND | DS_3DLOOK | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Welcome to ProSaver Screensaver Manager"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    CONTROL         144,IDC_STATIC,"Static",SS_BITMAP,7,7,78,149
+    LTEXT           "Thank you for choosing ProSaver Screensaver Manager, from WaveBreak Software!  Now, you can watch all of your favorite screen- savers, instead of being stuck with just one.",
+                    IDC_STATIC,94,7,149,32,NOT WS_GROUP
+    LTEXT           "A number of Tutorials have been designed to help you get started using and enjoying this program.  Select one from the list below:",
+                    IDC_STATIC,94,44,149,26,NOT WS_GROUP
+    LISTBOX         IDC_TUTORIALLBX,93,75,150,59,LBS_NOINTEGRALHEIGHT | 
+                    LBS_WANTKEYBOARDINPUT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Select a Tutorial from the list and click this button ->",
+                    IDC_STATIC,93,140,82,16,NOT WS_GROUP
+    PUSHBUTTON      "Display Tutorial",IDC_SHOWTUTORIALBTN,183,141,60,15
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,7,164,236,1
+    CONTROL         "Continue to show Welcome screen at startup",
+                    IDC_SHOWWELCOMECHK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    7,177,157,10
+    PUSHBUTTON      "Close This Window",IDC_CLOSEWNDBTN,173,172,70,15
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_MAINDLG_SAVERS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 435
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 275
+    END
+
+    IDD_MAINDLG_PLAYBACK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 435
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 275
+    END
+
+    IDD_SAVERINFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 173
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 235
+    END
+
+    IDD_EDITTHEMES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 159
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 152
+    END
+
+    IDD_NEWTHEME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 112
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 56
+    END
+
+    IDD_CHANGEMUSIC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 110
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 139
+    END
+
+    IDD_RENAMETHEME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 112
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 56
+    END
+
+    IDD_MUSICMGR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 422
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 272
+    END
+
+    IDD_PREFS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 145
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 144
+    END
+
+    IDD_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 191
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 211
+    END
+
+    IDD_PURCHASE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 201
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 265
+    END
+
+    IDD_DXINIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 123
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_WELCOMEDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 243
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 187
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_RATINGS             BITMAP  DISCARDABLE     "stars.bmp"
+IDB_DIMRATINGS          BITMAP  DISCARDABLE     "stars2.bmp"
+IDB_COMPUTER            BITMAP  DISCARDABLE     "computer.bmp"
+IDB_FOLDER              BITMAP  DISCARDABLE     "folder.bmp"
+IDB_FOLDERLT            BITMAP  DISCARDABLE     "folderlt.bmp"
+IDB_UPBTN               BITMAP  DISCARDABLE     "up1.bmp"
+IDB_DIMUPBTN            BITMAP  DISCARDABLE     "up2.bmp"
+IDB_BACKBTN             BITMAP  DISCARDABLE     "back1.bmp"
+IDB_DIMBACKBTN          BITMAP  DISCARDABLE     "back2.bmp"
+IDB_SPLASH              BITMAP  DISCARDABLE     "splash1.bmp"
+IDB_SCREEN              BITMAP  DISCARDABLE     "screen1.bmp"
+IDB_ABOUTBMP            BITMAP  DISCARDABLE     "icon1.bmp"
+IDB_WBSLOGO             BITMAP  DISCARDABLE     "wblogo2.BMP"
+IDB_ASPLOGO             BITMAP  DISCARDABLE     "asplogo.bmp"
+IDB_PSBUY               BITMAP  DISCARDABLE     "psbuy.bmp"
+IDB_CCARDS1             BITMAP  DISCARDABLE     "cards1.bmp"
+IDB_CCARDS2             BITMAP  DISCARDABLE     "cards2.bmp"
+IDB_SAVERIMG1           BITMAP  DISCARDABLE     "saver1.bmp"
+IDB_SAVERIMG2           BITMAP  DISCARDABLE     "saver2.bmp"
+IDB_WELCOME             BITMAP  DISCARDABLE     "welcome.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_ADDSAVERSND         WAVE    DISCARDABLE     "addsvr3.wav"
+IDR_CLEARSELSND         WAVE    DISCARDABLE     "clrsel2.wav"
+IDR_NEWSELSND           WAVE    DISCARDABLE     "newsel9.wav"
+IDR_SORTSND             WAVE    DISCARDABLE     "srtsnd6.wav"
+IDR_DELALLSND           WAVE    DISCARDABLE     "bomsnd4.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+MANIFEST_RESOURCE_ID    24      MOVEABLE PURE   "ProSaver.exe.manifest"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,3,0
+ PRODUCTVERSION 1,0,3,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "WaveBreak Software\0"
+            VALUE "FileDescription", "\0"
+            VALUE "FileVersion", "1, 0, 3, 0\0"
+            VALUE "InternalName", "ProSaver\0"
+            VALUE "LegalCopyright", "Copyright © 2006-2011\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "ProSaver.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "ProSaver Screensaver Manager\0"
+            VALUE "ProductVersion", "1, 0, 3, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MAINICON            ICON    DISCARDABLE     "icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// MP3
+//
+
+IDR_NULLMP3             MP3     DISCARDABLE     "nullsnd.mp3"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STRING              "ProSaver Screensaver Manager"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

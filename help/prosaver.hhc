@@ -1,0 +1,502 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="ImageType" value="Folder">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="About This Software">
+		<param name="Local" value="AboutThisSoftware.htm">
+		<param name="WindowName" value="AboutThisSoftware">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="System Requirements">
+			<param name="Local" value="SystemRequirements.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Installation">
+			<param name="Local" value="Installation.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Pricing Information">
+			<param name="Local" value="PricingInformation.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Known Issues">
+			<param name="Local" value="KnownIssues.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="The Shareware Principle">
+			<param name="Local" value="TheSharewarePrinciple.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Tutorials">
+		<param name="Local" value="Tutorials.htm">
+		<param name="WindowName" value="Tutorials">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Tutorial #1: Introduction to ProSaver">
+			<param name="Local" value="Tutorial1.htm">
+			<param name="WindowName" value="Tutorial1">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Part A: The ProSaver Main Window">
+				<param name="Local" value="Tutorial1A.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Part B: The Screensavers Tab">
+				<param name="Local" value="Tutorial1B.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Part C: The Playback Options Tab">
+				<param name="Local" value="Tutorial1C.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Part D: The Music Manager">
+				<param name="Local" value="Tutorial1D.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Tutorial #2: Creating a Screensaver Playlist">
+			<param name="Local" value="Tutorial2.htm">
+			<param name="WindowName" value="Tutorial2">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Part A: Adding Screensavers">
+				<param name="Local" value="Tutorial2A.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Part B: Arranging the Playlist">
+				<param name="Local" value="Tutorial2B.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Part C: Previewing the Playlist">
+				<param name="Local" value="Tutorial2C.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Part D: Saving and Loading Playlists">
+				<param name="Local" value="Tutorial2D.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Tutorial #3: Setting Playback Options">
+			<param name="Local" value="Tutorial3.htm">
+			<param name="WindowName" value="Tutorial3">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Part A: Playback Settings">
+				<param name="Local" value="Tutorial3A.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Part B: Hotkey Controls">
+				<param name="Local" value="Tutorial3B.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Tutorial #4: Organizing Your Screensavers">
+			<param name="Local" value="Tutorial4.htm">
+			<param name="WindowName" value="Tutorial4">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Part A: The Screensaver Info Editor">
+				<param name="Local" value="Tutorial4A.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Part B: Themes and the Themes Manager">
+				<param name="Local" value="Tutorial4B.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Part C: Ratings, Descriptions and Mini-Previews">
+				<param name="Local" value="Tutorial4C.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Tutorial #5: Adding Music and Audio Playlists">
+			<param name="Local" value="Tutorial5.htm">
+			<param name="WindowName" value="Tutorial5">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Part A: The Change Music Dialog">
+				<param name="Local" value="Tutorial5A.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Part B: Using the Audio File List">
+				<param name="Local" value="Tutorial5B.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Part C: Arranging the Playlist">
+				<param name="Local" value="Tutorial5C.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Part D: Playback Controls and Options">
+				<param name="Local" value="Tutorial5D.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Part E: Assigning Playlists to Screensavers">
+				<param name="Local" value="Tutorial5E.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Tutorial #6: Shortcuts and Time-Savers">
+			<param name="Local" value="Tutorial6.htm">
+			<param name="WindowName" value="Tutorial6">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Part A: The System Tray Icon">
+				<param name="Local" value="Tutorial6A.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Part B: Using Keyboard Shortcuts">
+				<param name="Local" value="Tutorial6B.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Tutorial #7: Using Advanced Options">
+			<param name="Local" value="Tutorial7.htm">
+			<param name="WindowName" value="Tutorial7">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Part A: Screensaver Search Paths">
+				<param name="Local" value="Tutorial7A.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Part B: Error Logging and Other Options">
+				<param name="Local" value="Tutorial7B.htm">
+				</OBJECT>
+		</UL>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ProSaver Main Window">
+		<param name="Local" value="ProSaverMainWindow.htm">
+		<param name="WindowName" value="ProSaverMainWindow">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Screensavers Tab">
+			<param name="Local" value="ScreensaversTab.htm">
+			<param name="WindowName" value="ScreensaversTab">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Available Screensavers Box">
+				<param name="Local" value="AvailableScreensaversBox.htm">
+				<param name="WindowName" value="AvailableScreensaversBox">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Screensaver List">
+					<param name="Local" value="ScreensaverList.htm">
+					<param name="WindowName" value="ScreensaverList">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Screensaver List Buttons">
+					<param name="Local" value="ScreensaverListButtons.htm">
+					<param name="WindowName" value="ScreensaverListButtons">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Current Playlist Box">
+				<param name="Local" value="CurrentPlaylistBox.htm">
+				<param name="WindowName" value="CurrentPlaylistBox">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Screensaver Playlist">
+					<param name="Local" value="ScreensaverPlaylist.htm">
+					<param name="WindowName" value="ScreensaverPlaylist">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Move Selection Buttons">
+					<param name="Local" value="MoveSelectionButtons.htm">
+					<param name="WindowName" value="MoveSelectionButtons">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Screensaver Playlist Buttons">
+					<param name="Local" value="ScreensaverPlaylistButtons.htm">
+					<param name="WindowName" value="ScreensaverPlaylistButtons">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Current Selection Box">
+				<param name="Local" value="CurrentSelectionBox.htm">
+				<param name="WindowName" value="CurrentSelectionBox">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Screensaver Info Box">
+					<param name="Local" value="ScreensaverInfoBox.htm">
+					<param name="WindowName" value="ScreensaverInfoBox">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Screensaver Buttons">
+					<param name="Local" value="ScreensaverButtons.htm">
+					<param name="WindowName" value="ScreensaverButtons">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Mini-Preview Window">
+					<param name="Local" value="MiniPreviewWindow.htm">
+					<param name="WindowName" value="MiniPreviewWindow">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Playback Options Tab">
+			<param name="Local" value="PlaybackOptionsTab.htm">
+			<param name="WindowName" value="PlaybackOptionsTab">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="General Settings">
+				<param name="Local" value="GeneralSettings.htm">
+				<param name="WindowName" value="GeneralSettings">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Screensaver Options">
+					<param name="Local" value="ScreensaverOptions.htm">
+					<param name="WindowName" value="ScreensaverOptions">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Playback Order Options">
+					<param name="Local" value="PlaybackOrderOptions.htm">
+					<param name="WindowName" value="PlaybackOrderOptions">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Screensaver Hotkeys">
+					<param name="Local" value="ScreensaverHotkeys.htm">
+					<param name="WindowName" value="ScreensaverHotkeys">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Other Options">
+					<param name="Local" value="OtherOptionsGen.htm">
+					<param name="WindowName" value="OtherOptionsGen">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Advanced Settings">
+				<param name="Local" value="AdvancedSettings.htm">
+				<param name="WindowName" value="AdvancedSettings">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Screensaver Search Paths">
+					<param name="Local" value="ScreensaverSearchPaths.htm">
+					<param name="WindowName" value="ScreensaverSearchPaths">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Error Logging">
+					<param name="Local" value="ErrorLogging.htm">
+					<param name="WindowName" value="ErrorLogging">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Other Options">
+					<param name="Local" value="OtherOptionsAdv.htm">
+					<param name="WindowName" value="OtherOptions">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Additional Buttons">
+			<param name="Local" value="AdditionalButtons.htm">
+			<param name="WindowName" value="AdditionalButtons">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Preferences Window">
+				<param name="Local" value="PreferencesWindow.htm">
+				<param name="WindowName" value="PreferencesWindow">
+				</OBJECT>
+		</UL>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Screensaver Info Editor">
+		<param name="Local" value="ScreensaverInfoEditor.htm">
+		<param name="WindowName" value="ScreensaverInfoEditor">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Themes and Ratings">
+			<param name="Local" value="ThemesAndRatings.htm">
+			<param name="WindowName" value="ThemesAndRatings">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Music Options">
+			<param name="Local" value="MusicOptions.htm">
+			<param name="WindowName" value="MusicOptions">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Change Music Dialog">
+			<param name="Local" value="ChangeMusicDialog.htm">
+			<param name="WindowName" value="ChangeMusicDialog">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Screensaver Description">
+			<param name="Local" value="ScreensaverDescription.htm">
+			<param name="WindowName" value="ScreensaverDescription">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Turn Off Preview Box">
+			<param name="Local" value="TurnOffPreviewBox.htm">
+			<param name="WindowName" value="TurnOffPreviewBox">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Themes Manager">
+		<param name="Local" value="ThemesManager.htm">
+		<param name="WindowName" value="ThemesManager">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Themes List">
+			<param name="Local" value="ThemesList.htm">
+			<param name="WindowName" value="ThemesList">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Theme List Buttons">
+			<param name="Local" value="ThemeListButtons.htm">
+			<param name="WindowName" value="ThemeListButtons">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="New Theme Dialog">
+			<param name="Local" value="NewThemeDialog.htm">
+			<param name="WindowName" value="NewThemeDialog">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Rename Theme Dialog">
+			<param name="Local" value="RenameThemeDialog.htm">
+			<param name="WindowName" value="RenameThemeDialog">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Music Manager">
+		<param name="Local" value="MusicManager.htm">
+		<param name="WindowName" value="MusicManager">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Audio Files Box">
+			<param name="Local" value="AudioFilesBox.htm">
+			<param name="WindowName" value="AudioFilesBox">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Audio File List">
+				<param name="Local" value="AudioFileList.htm">
+				<param name="WindowName" value="AudioFileList">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="File List Controls">
+				<param name="Local" value="FileListControls.htm">
+				<param name="WindowName" value="FileListControls">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Current Playlist Box">
+			<param name="Local" value="CurrentPlaylistBoxAud.htm">
+			<param name="WindowName" value="CurrentPlaylistBoxAud">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Audio Playlist">
+				<param name="Local" value="AudioPlaylist.htm">
+				<param name="WindowName" value="AudioPlaylist">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Move Selection Buttons">
+				<param name="Local" value="MoveSelectionButtonsAud.htm">
+				<param name="WindowName" value="MoveSelectionButtonsAud">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Audio Playlist Buttons">
+				<param name="Local" value="AudioPlaylistButtons.htm">
+				<param name="WindowName" value="AudioPlaylistButtons">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Current Selection Box">
+			<param name="Local" value="CurrentSelectionBoxAud.htm">
+			<param name="WindowName" value="CurrentSelectionBoxAud">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Audio File Info">
+				<param name="Local" value="AudioFileInfo.htm">
+				<param name="WindowName" value="AudioFileInfo">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Audio Controls">
+				<param name="Local" value="AudioControls.htm">
+				<param name="WindowName" value="AudioControls">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Playback Controls Box">
+			<param name="Local" value="PlaybackControlsBox.htm">
+			<param name="WindowName" value="PlaybackControlsBox">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Synthesizer Options Box">
+			<param name="Local" value="SynthesizerOptionsBox.htm">
+			<param name="WindowName" value="SynthesizerOptionsBox">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="DirectX Audio Effects">
+				<param name="Local" value="DirectXAudioEffects.htm">
+				<param name="WindowName" value="DirectXAudioEffects">
+				</OBJECT>
+		</UL>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Other Features">
+		<param name="Local" value="OtherFeatures.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="System Tray Icon">
+			<param name="Local" value="SystemTrayIcon.htm">
+			<param name="WindowName" value="SystemTrayIcon">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ProSaver and Windows Control Panel">
+			<param name="Local" value="ProSaverAndWindowsControlPanel.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Additional Information">
+		<param name="Local" value="AdditionalInformation.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Links to Audio Resources">
+			<param name="Local" value="LinksToAudioResources.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Special Thanks">
+			<param name="Local" value="SpecialThanks.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Contact Us">
+			<param name="Local" value="ContactUs.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Legal Information">
+			<param name="Local" value="LegalInformation.htm">
+			</OBJECT>
+	</UL>
+</UL>
+</BODY></HTML>

@@ -1,0 +1,64 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ProSaver - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/prosaver.res" /i "Source" /d "_DEBUG" /d "_AFXDLL" "C:\Documents and Settings\Randy\My Documents\Randy's Folder\ProSaver\Source\prosaver.rc"" 
+Creating temporary file "C:\DOCUME~1\Randy\LOCALS~1\Temp\RSP2BD1.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Debug/ProSaver.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Randy\My Documents\Randy's Folder\ProSaver\Source\audio.cpp"
+"C:\Documents and Settings\Randy\My Documents\Randy's Folder\ProSaver\Source\dxaudio.cpp"
+"C:\Documents and Settings\Randy\My Documents\Randy's Folder\ProSaver\Source\errlog.cpp"
+"C:\Documents and Settings\Randy\My Documents\Randy's Folder\ProSaver\Source\main.cpp"
+"C:\Documents and Settings\Randy\My Documents\Randy's Folder\ProSaver\Source\playback.cpp"
+"C:\Documents and Settings\Randy\My Documents\Randy's Folder\ProSaver\Source\savers.cpp"
+"C:\Documents and Settings\Randy\My Documents\Randy's Folder\ProSaver\Source\source.cpp"
+"C:\Documents and Settings\Randy\My Documents\Randy's Folder\ProSaver\Source\svrmgr.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Randy\LOCALS~1\Temp\RSP2BD1.tmp" 
+Creating temporary file "C:\DOCUME~1\Randy\LOCALS~1\Temp\RSP2BD2.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/ProSaver.pdb" /debug /machine:I386 /out:"Debug/ProSaver.exe" /pdbtype:sept 
+".\Debug\audio.obj"
+".\Debug\dxaudio.obj"
+".\Debug\errlog.obj"
+".\Debug\main.obj"
+".\Debug\playback.obj"
+".\Debug\savers.obj"
+".\Debug\source.obj"
+".\Debug\svrmgr.obj"
+".\Debug\prosaver.res"
+"..\..\..\..\..\Program Files\Microsoft Visual Studio\VC98\Lib\MSIMG32.LIB"
+"..\..\..\..\..\Program Files\Microsoft Visual Studio\VC98\Lib\WINMM.LIB"
+"..\..\..\..\..\Program Files\Microsoft Visual Studio\VC98\Lib\VFW32.LIB"
+"..\..\..\..\..\Program Files\Microsoft Visual Studio\VC98\Lib\IMAGEHLP.LIB"
+".\Source\htmlhelp\htmlhelp.lib"
+"..\..\..\..\..\DXSDK\lib\dxguid.lib"
+"..\..\..\..\..\DXSDK\lib\dsound.lib"
+"..\..\..\..\..\DXSDK\lib\DxErr8.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\Randy\LOCALS~1\Temp\RSP2BD2.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+audio.cpp
+dxaudio.cpp
+errlog.cpp
+main.cpp
+playback.cpp
+savers.cpp
+source.cpp
+svrmgr.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+ProSaver.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
